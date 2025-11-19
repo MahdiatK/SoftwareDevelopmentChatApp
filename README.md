@@ -51,11 +51,11 @@ Considerations;
 - Multiplayer, Real-time nature of talking to others, be able to hold multiple users at once
 
 Pros;
-- demand is high for chat apps
+- Demand is high for chat apps
 - Can add features like user profiles, media sharing and video calls
 
 Cons;
-- can be challenging to make (data base management of users)
+- Can be challenging to make (data base management of users)
 - Highly competitive market
 - Will need alot of time spent on coding 
 
