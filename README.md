@@ -14,7 +14,7 @@ Considerations;
 
 Pros;
 - Other a variatey of ways to play the game
-- -encourages creativity in how players of the game design their hiding spots
+- Encourages creativity in how players of the game design their hiding spots
   
 
 
@@ -23,3 +23,29 @@ Pros;
 As any software project goes, it's essential to plan and build around an intended target audience. For the chosen project of building functioning mobile-ready Chat App, there are multiple possible target audiences to consider from:
 
 ## Family and Friends
+ <ins> CHARACTERISTICS: <ins/>
+
+
+Prefer a simple, friendly interface
+
+Lightweight features
+
+Primarily mobile based usage
+
+
+## Students
+ <ins> CHARACTERISTICS: <ins/>
+
+
+Use messaging apps daily
+
+Need fast, simple communication
+
+Often collaborate in virtual spaces
+
+Appeals to engaging, intuitive UI
+
+
+
+  
+
