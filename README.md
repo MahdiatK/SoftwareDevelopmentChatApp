@@ -210,7 +210,7 @@ The project is deemed successful if;
 
 # <ins> User Profiles <ins/>
 
-# <ins> User Profile 1 — Emily (Mother and Casual Tech User) <ins/>
+# User Profile 1 — Emily (Mother and Casual Tech User)
 
 Age: 42
 
@@ -235,7 +235,7 @@ Private, secure conversations for family messages or chats.
 
 Ability to create small group chats.
 
-# <ins> User Profile 2 — Liam (Teenager and Social Communicator) <ins/>
+# User Profile 2 — Liam (Teenager and Social Communicator)
 
 Age: 16
 
