@@ -258,3 +258,6 @@ Clean, modern interface that feels familiar and comfortable.
 Reliable message delivery so conversations feel instant.
 
 Lightweight app that works smoothly on mobile devices.
+
+
+# <ins> High-Level Specifications <ins/>
