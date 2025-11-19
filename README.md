@@ -269,7 +269,7 @@ Lightweight app that works smoothly on mobile devices.
 
 # Application Functions
 
-User Account Management:
+**User Account Management**
 
 - The system must allow users to create an account using a unique username.
 
@@ -277,7 +277,7 @@ User Account Management:
 
 - The system must store and manage basic user profile information.
 
-Real-Time Messaging
+**Real-Time Messaging**
 
 - The system must allow users to send and receive text messages in real time.
 
@@ -285,35 +285,35 @@ Real-Time Messaging
 
 - The system must show message delivery status (sent/failed).
 
-Chat Rooms Management
+**Chat Rooms Management**
 
 - The system must maintain multiple active chat rooms simultaneously.
 
 - The system must load recent chat history when users join a room.
 
-User Presence and Online Status
+**User Presence and Online Status**
 
 - The system must track which users are currently online.
 
 - The system must display a list of online users in each room.
 
-Notifications
+**Notifications**
 
 - Users must receive notifications when new messages arrive.
 
-Message History
+**Message History**
 
 - The system must store past messages.
 
 - Users must be able to view message histories of chats
 
-Security and Access Control
+**Security and Access Control**
 
 - Users must only see messages in rooms they are part of.
 
 - Users must only be able to delete or edit their own messages (optional)
 
-User Interaction Controls
+**User Interaction Controls**
 
 - Users must be able to join or leave chat rooms from the interface.
 
