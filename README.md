@@ -260,4 +260,5 @@ Reliable message delivery so conversations feel instant.
 Lightweight app that works smoothly on mobile devices.
 
 
-# <ins> High-Level Specifications <ins/>
+# <ins> High-Level Functional Specifications <ins/>
+
