@@ -1,6 +1,6 @@
 # <p align=center> [Software-Devlopment-ChatApp / Daniel, Sayf and Mahdiat](https://placehold.it/150/ffffff/ff0000?text=hello) </p>
 
-  # <ins> Revewing Available Projects <ins/>
+  # <ins> Reviewing Available Projects <ins/>
 ## Hide and seek
 
 Players can hide either objects or their avatars within a game mode, while another player (team) tries to find them. 
