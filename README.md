@@ -2,22 +2,20 @@
 
   # <ins> Reviewing Available Projects <ins/>
 ## Hide and seek
-
 Players can hide either objects or their avatars within a game mode, while another player (team) tries to find them. 
 
 Target audience;
-This would be catered towards younger players (kids and teenagers), it may be appealing for small groups of people who enjoy multiplayer games.
+- This would be catered towards younger players (kids and teenagers), it may be appealing for small groups of people who enjoy multiplayer games.
 
 Considerations;
--Game design, the hiding areas must be dynamic full with objects
--Multiplayer, involve different roles such as hiders and seekers, potentially multiple people in each team
--Technology, a simple 2 dimensional environment to host the game
+- Game design, the hiding areas must be dynamic full with objects
+- Multiplayer, involve different roles such as hiders and seekers, potentially multiple people in each team
+- Technology, a simple 2 dimensional environment to host the game
 
 Pros;
 - Other a variatey of ways to play the game
 - -encourages creativity in how players of the game design their hiding spots
   
-
 
 
 
