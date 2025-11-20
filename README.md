@@ -365,7 +365,7 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="1513" height="433" alt="image" src="https://github.com/user-attachments/assets/5a70f9fb-5dfa-47c4-9fa7-5174967ae46b" />
 
-***FINAL MOCKUPS FROM MAHDIAT***
+# ***FINAL MOCKUPS FROM MAHDIAT***
 
 <img width="408" height="775" alt="image" src="https://github.com/user-attachments/assets/3d42b076-8bae-4080-9011-520fb1b74dcb" />
 
