@@ -378,12 +378,16 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 # Daniel Drafts
 
-<img width="409" height="248" alt="image" src="https://github.com/user-attachments/assets/1506576e-d4f1-473f-8a28-2810c805d5ed" />
+<img width="409" height="248" alt="image" src="https://github.com/user-attachments/assets/7b4e22fb-8e71-4621-a134-b5c3c60b9ad1" />
 
-<img width="311" height="777" alt="image" src="https://github.com/user-attachments/assets/0ed5dbd9-8424-4dbb-8c24-f2edad093fed" />
+<img width="366" height="675" alt="image" src="https://github.com/user-attachments/assets/9f68b7c8-9783-4e14-ae00-7af832c18621" />
 
-<img width="304" height="595" alt="image" src="https://github.com/user-attachments/assets/8f85f58a-e034-4520-bf19-7c662a7bcaa2" />
+<img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/dd8f488a-2fc7-4acf-b3d8-b9b6214f22ce" />
 
-<img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/bfa3e166-f33a-4d36-a14a-1823810e61ec" />
+# ***FINAL MOCKUPS FROM DANIEL***
 
-<img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/1755052f-8f26-49ad-92ef-fe4d74ad4887" />
+<img width="304" height="595" alt="image" src="https://github.com/user-attachments/assets/09cd2323-b56a-4123-a0d3-be9508036ee4" />
+
+<img width="299" height="588" alt="image" src="https://github.com/user-attachments/assets/10306ed2-966d-41b0-a10f-e490306e58ee" />
+
+<img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/c0622307-1854-44d0-af0e-cda4774fb48a" />
