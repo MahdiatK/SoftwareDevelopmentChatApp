@@ -345,3 +345,32 @@ Each user will have a profile with an avatar and username, each user has options
 If a message can't be sent due to connectivity issues, users should receive a notification saying something went wrong "please check your connections and try again", a retry button to try resend a undelivered messae and a offline warning, messages saved until other user back online to receive it.
 
 
+# <ins> Designing the Mockups <ins/>
+
+# Mahdiat Drafts
+
+<img width="363" height="197" alt="image" src="https://github.com/user-attachments/assets/4dd141aa-3c17-4f51-b52b-1c7d3ee84f51" />
+
+<img width="812" height="398" alt="image" src="https://github.com/user-attachments/assets/bc8cb4a1-62c6-457a-9c26-306aeb798554" />
+
+<img width="860" height="427" alt="image" src="https://github.com/user-attachments/assets/7910fd55-b45f-48c3-afe1-534e879d2331" />
+
+<img width="1185" height="580" alt="image" src="https://github.com/user-attachments/assets/22307332-bd28-468c-9f11-761144d1b43e" />
+
+<img width="1173" height="586" alt="image" src="https://github.com/user-attachments/assets/f14a57ec-4fd9-47ae-bab2-4c135caf3d94" />
+
+<img width="1179" height="577" alt="image" src="https://github.com/user-attachments/assets/ddf4fec8-c728-458d-88ea-8b6dfee09db5" />
+
+<img width="1183" height="574" alt="image" src="https://github.com/user-attachments/assets/40890b6c-5bdf-49a7-baf7-0bef11b1c849" />
+
+<img width="1513" height="433" alt="image" src="https://github.com/user-attachments/assets/5a70f9fb-5dfa-47c4-9fa7-5174967ae46b" />
+
+***FINAL MOCKUPS FROM MAHDIAT***
+
+<img width="395" height="687" alt="image" src="https://github.com/user-attachments/assets/51a00c4c-e667-421e-8215-0aceb69a9c54" />
+
+<img width="355" height="690" alt="image" src="https://github.com/user-attachments/assets/9f5cbc9b-c500-4a13-9e1f-ed8a01003bb1" />
+
+<img width="981" height="701" alt="image" src="https://github.com/user-attachments/assets/590036b4-2d7d-456b-9f6a-1ea8ccf7d7f0" />
+
+<img width="982" height="705" alt="image" src="https://github.com/user-attachments/assets/7f747a93-0dcd-4640-ab11-e138442f362e" />
