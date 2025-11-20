@@ -384,7 +384,7 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/dd8f488a-2fc7-4acf-b3d8-b9b6214f22ce" />
 
-# ***FINAL MOCKUPS FROM DANIEL***
+# ***FINAL MOCKUPS FROM DANIEL/storyboard***
 
 <img width="304" height="595" alt="image" src="https://github.com/user-attachments/assets/09cd2323-b56a-4123-a0d3-be9508036ee4" />
 
