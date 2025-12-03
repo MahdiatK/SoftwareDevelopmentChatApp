@@ -392,6 +392,10 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/c0622307-1854-44d0-af0e-cda4774fb48a" />
 
+# Sayf's Mock-ups
+
+<img width="838" height="799" alt="image" src="https://github.com/user-attachments/assets/05f09fe2-aa98-43fe-b74e-32a8611f48b9" />
+
 ## Potential Project Risks
 
 #Technical arcitecture
