@@ -504,3 +504,11 @@ function createGroupChat(creatorID, memberList):
 
 <img width="567" height="820" alt="image" src="https://github.com/user-attachments/assets/53562708-8607-4b0c-82c1-3e8c3a49a003" />
 
+# How states are detected #
+- Start state triggered when the app loads (AppDelegate / MainActivity)
+- Authentication state detected by checking if user token exists
+- Chat open state triggered by navigation (open chat ID)
+- Message events triggered by server socket/WebSocket/HTTP events
+- Error state triggered by network failure or invalid response
+
+
