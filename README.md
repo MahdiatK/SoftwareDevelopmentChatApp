@@ -499,3 +499,8 @@ function createGroupChat(creatorID, memberList):
 
 # Message sending flow chart #
 <img width="377" height="651" alt="message sending flow" src="https://github.com/user-attachments/assets/454e6a0a-3633-49af-929f-6eb2da85054d" />
+
+## Establishing Game state ##
+
+<img width="567" height="820" alt="image" src="https://github.com/user-attachments/assets/53562708-8607-4b0c-82c1-3e8c3a49a003" />
+
