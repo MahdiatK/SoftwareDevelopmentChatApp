@@ -511,4 +511,36 @@ function createGroupChat(creatorID, memberList):
 - Message events triggered by server socket/WebSocket/HTTP events
 - Error state triggered by network failure or invalid response
 
+# How states change #
+- Navigation (user taps chat → CHAT_OPEN)
+- User interactions (send message → MESSAGE_SENT)
+- Server events (incoming message → MESSAGE_RECEIVED)
+- Authentication success/failure
+- Errors and exception handling
+
+# State Logic #
+- state = "START"
+
+- if appOpened:
+    state = "AUTH"
+
+- if loginSuccessful:
+    state = "HOME"
+
+- if userSelectsChat:
+    state = "CHAT_OPEN"
+
+- if userSendsMessage:
+    state = "MESSAGE_SENT"
+
+- if receiveMessageEvent:
+    state = "MESSAGE_RECEIVED"
+
+- if errorOccurs:
+    state = "ERROR"
+
+- if userLogsOut:
+    state = "LOGOUT"
+
+
 
