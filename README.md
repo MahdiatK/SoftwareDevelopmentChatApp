@@ -522,7 +522,7 @@ function createGroupChat(creatorID, memberList):
 - state = "START"
 
 - if appOpened:
-    state = "AUTH"
+     state = "AUTH"
 
 - if loginSuccessful:
     state = "HOME"
