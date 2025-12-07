@@ -544,5 +544,8 @@ function createGroupChat(creatorID, memberList):
 - if userLogsOut:
     state = "LOGOUT"
 
-
-
+## Refrences
+To develop the app we chose to use Flutter framework and Cloud Firestore (Firebase). The flutter framework is essential to build the mobile app’s interface and logic for both Android and iOS from a single codebase. And Firestore is essential to store user data, messages, and real-time updates.
+To use both of these we had to learn the basics and used the following websites:
+- https://codelabs.developers.google.com/codelabs/flutter-codelab-first#1
+- https://firebase.google.com/docs/firestore?_gl=1*12ydv1y*_up*MQ..*_ga*MTU4MTYyNTQxMS4xNzY1MTMyMjEw*_ga_CW55HF8NVT*czE3NjUxMzIyMDkkbzEkZzAkdDE3NjUxMzIyMDkkajYwJGwwJGgw
