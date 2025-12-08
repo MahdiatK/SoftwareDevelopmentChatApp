@@ -399,6 +399,9 @@ If a message can't be sent due to connectivity issues, users should receive a no
 - Profile Page
 <img width="794" height="747" alt="image" src="https://github.com/user-attachments/assets/c44ad11e-e3f7-438d-b89c-6a5118dfa284" />
 
+- Logo Link
+- https://i.postimg.cc/GtXyJgkf/Unity-Logo.png
+- used in code for a direct link to implement the unity logo 
 ## Potential Project Risks
 
 # Technical arcitecture #
