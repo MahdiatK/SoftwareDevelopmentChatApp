@@ -64,7 +64,18 @@ class LoginPage extends StatelessWidget {
               onTap: login,
             ),
 
-              //register now
+            const SizedBox(height: 25),
+
+            //register now
+            Row(
+              mainAxisAlignment: MainAxis Alignment.center,
+              children:
+                Text("Not a member?"),
+                Text(
+                    "Register now", 
+                    style: Textstyle(
+                        fontWeight: FontWeight.bold,
+                      ),
         
             
 
