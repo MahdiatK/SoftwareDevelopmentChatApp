@@ -1,24 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:unity_main/components/textfield.dart';
+import 'package:unity_main/components/my_button.dart';
 
-import '../components/my_button.dart';
-import '../components/my_textfield.dart';
-
-class RegisterPage extends statelessWidget {
-   // username and pw controllers
+class RegisterPage extends StatelessWidget {
+   //Username and pw controllers
    final TextEditingController _usernameController = TextEditingController();
    final TextEditingController _pwController = TextEditingController();
    final TextEditingController _confirmpwController = TextEditingController();
 
-     // tap to go to register page
+     //Tap to go to register page
     final void Function()? onTap;
   
   RegisterPage({super.key, required this.onTap});
 
-  // register method
+  //Register method
   void register() {}
 
   @override
-  widget build(BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.surface,
       body:Center(
@@ -54,19 +53,19 @@ class RegisterPage extends statelessWidget {
             const SizedBox(height: 10),
 
             //Password field
-             MyTextField(
-               hintText: "Password",
-               obscureText: true,
-               controller: _pwController,
+            MyTextField(
+              hintText: "Password",
+              obscureText: true,
+              controller: _pwController,
             ),
 
-              const SizedBox(height: 10),
+            const SizedBox(height: 10),
 
             // Confirm Password field
-             MyTextField(
-               hintText: "Confirm password",
-               obscureText: true,
-               controller: _confirmpwController,
+            MyTextField(
+              hintText: "Confirm password",
+              obscureText: true,
+              controller: _confirmpwController,
             ),
 
             const SizedBox(height: 25),
@@ -81,23 +80,24 @@ class RegisterPage extends statelessWidget {
 
             //register now
             Row(
-              mainAxisAlignment: MainAxis Alignment.center,
-              children:
-                Text("Already have an account?"),
-                style: 
-                    TextStyle(colour: Theme.of(context).colourScheme.primary),
-               ), // Text
-               GestureDetector(
-                 onTap: onTap,
-                 child: Text(
-                   "Login now", 
-                   style: Textstyle(
-                        fontWeight: FontWeight.bold,
-                        colour: Theme.of(context).colourScheme.primary),
-                 ),
-        
-            
-
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Already have an account?",
+                  style: 
+                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                ),
+                GestureDetector(
+                  onTap: onTap,
+                  child: Text(
+                    "Login now", 
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.primary),
+                  ),
+                ),
+              ],   
+            ),
           ],
         ),
       ),
