@@ -5,7 +5,16 @@ class AuthGate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: StreamBuilder(
+        strean: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot) {
+
+          //user is logged in
+
+          //user is NOT logged in
+        }, 
+      ),
+    ):
   }
 }
-
