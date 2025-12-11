@@ -29,7 +29,10 @@ class MyDrawer extends StatelessWidget {
             child: ListTile(
               title: const Text(" H O M E"),
               leading: const Icon(Icons.home),
-              onTap: () {},
+              onTap: () {
+                // pop the drawer
+                Navigator.pop(context);
+              },
             ),
           ),
 
