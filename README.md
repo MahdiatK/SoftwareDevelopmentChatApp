@@ -2,7 +2,13 @@
 
 <img width="1024" height="218" alt="image" src="https://github.com/user-attachments/assets/6e5fcdc3-3477-4cd8-a2bf-b6d7d500b18a" />
 
-  # <ins> Reviewing Available Projects <ins/>
+# Unity Chat App
+
+![Unity Logo](https://i.postimg.cc/GtXyJgkf/Unity-Logo.png)
+
+---
+
+# <ins> Reviewing Available Projects <ins/>
 ## Hangman
 A simple, GUI multiplater game where players take turns guessing letters to reveal a hidden word, with ach incorrect guess adding to a 'hangman' drawing.
 
@@ -59,7 +65,9 @@ Pros;
 Cons;
 - Can be challenging to make (data base management of users)
 - Highly competitive market
-- Will need alot of time spent on coding 
+- Will need alot of time spent on coding
+
+---
 
 # <ins> Reviewing Target Audiences <ins/>
 As any software project goes, it's essential to plan and build around an intended target audience. For the chosen project of building functioning mobile-ready Chat App, there are multiple possible target audiences to consider from:
@@ -83,6 +91,7 @@ Chacteristics;
 - May need channels, tagging, or file exchange
 - Values security
 
+---
 
 # <ins> Intended Primary Target Audience <ins/>
 ## Family and Friends
@@ -90,6 +99,8 @@ Chacteristics;
 The project will be completed with casual use in mind, for families and friends who need an easy and convenient way of communication. This demographic will be favoring ease of use, instant messaging and an intuitive, accessible UI. By targeting users who prefer casual communication, the project can focus on core messaging without requiring more complex functionalities to support team-based environments. This will let the project fall under a realistic and achievable scope of work, as the members don't have extensive experience in designing mobile apps, or java.
 
 # <ins> Overall Specification – Chat Application <ins/>
+
+---
 
 # Core User Requirements
 - Create an account or log in using a username
@@ -100,11 +111,15 @@ The project will be completed with casual use in mind, for families and friends 
 - Receive notifications when new messages arrive
 - View past messages (chat history)
 
+---
+
 # Optional User Requirements
 - Send emojis or simple reactions
 - Edit or delete their own messages within a set time limit
 - Block or mute other users
 - Customise basic profile information (avatar, display name)
+
+---
 
 # System Requirements
 Functional Requirements;
@@ -115,11 +130,15 @@ Functional Requirements;
 - The system must keep track of which users are currently online
 - The system must prevent unauthorised access through authentication
 
+---
+
 # Non-Functional Requirements
 - Performance, Messages should appear for all users in under 1 second
 - Reliability, Server uptime should be above 99%
 - Scalability, Support a minimum of 100 concurrent users
 - Compatibility, Work across desktop and mobile browsers (responsive design).
+
+---
 
 # Human–Computer Interaction (HCI) Requirements
 Interface Layout;
@@ -128,6 +147,8 @@ Interface Layout;
 - User list panel visible on the side
 - Text input box fixed at the bottom
 - Date/time separators for clarity
+
+---
 
 # Usability Requirements
 - Simple login flow
@@ -140,10 +161,14 @@ Clear feedback when:
 - Message has failed
 - A user joins/leaves
 
+---
+
 # Accessibility
 - Adjustable text size
 - Keyboard-only navigation support
 - High-contrast mode
+
+---
 
 # Game-Rules and Game-Mechanics Equivalent
 Games rules;
@@ -153,13 +178,19 @@ Games rules;
 - A user cannot see messages in rooms they are not part of
 - Muted users’ messages will not be shown to the muting user
 
+---
+
 # System Mechanics
 - Users are marked online when authenticated and connected; offline when disconnected
 - Users may join or leave rooms, When joining, the last X messages are loaded from history
 
+---
+
 # Notifications appear when;
 - a new message arrives
 - a user joins or leaves the room
+
+---
 
 # Control System (How the user controls the “game”)
 - Press “Enter” to send
@@ -167,11 +198,15 @@ Games rules;
 - Join/leave room buttons
 - User settings panel
 
+---
+
 # Non-Player Characters (NPCs Equivalent)
 - There are no true NPCs, but the system may include automated system messages acting like NPC interactions:
 - “System: User123 has joined the room.”
 - “System: Message failed to send.”
 - “System: You were disconnected.”
+
+---
 
 # Data Requirements
 - UserID
@@ -180,6 +215,8 @@ Games rules;
 - Avatar (optional)
 - Status (online/offline)
 
+---
+
 # Message Data Structure
 - MessageID
 - RoomID
@@ -187,16 +224,22 @@ Games rules;
 - Timestamp
 - MessageText
 
+---
+
 # System Architecture Overview
 - Frontend (Client): HTML/CSS/JavaScript UI
 - Backend (Server): Node.js / Python / Java 
 - Database: SQL or NoSQL
 - Communication: WebSockets or long-polling for real-time messaging
 
+---
+
 # Constraints
 - The system must support multiple active rooms
 - Only text messages (and optional emojis) — no file transfers unless extended
 - The entire application must run efficiently on low-spec mobile devices
+
+---
 
 # Acceptance Criteria
 The project is deemed successful if;
@@ -206,7 +249,7 @@ The project is deemed successful if;
 - Chat history loads correctly
 - Basic moderation tools (mute/block) work as designed
 
-
+---
 
 # <ins> User Profiles <ins/>
 
@@ -235,6 +278,8 @@ Private, secure conversations for family messages or chats.
 
 Ability to create small group chats.
 
+---
+
 # User Profile 2 — Liam (Teenager and Social Communicator)
 
 Age: 16
@@ -258,6 +303,7 @@ Reliable message delivery so conversations feel instant.
 
 Lightweight app that works smoothly on mobile devices.
 
+---
 
 # <ins> High-Level Functional Specifications <ins/>
 
@@ -266,6 +312,8 @@ Lightweight app that works smoothly on mobile devices.
  - At least 1GB RAM
  - Around 300MB free storage
  - A stable internet connection
+
+---
 
 # Application Functions
 
@@ -319,13 +367,7 @@ Lightweight app that works smoothly on mobile devices.
 
 - Users must access basic settings such as profile and mute/block controls.
 
-
-
-
-
-
-
-
+---
 
 # <ins> High-Level Non-Functional Specifications <ins/>
 
@@ -344,6 +386,7 @@ Each user will have a profile with an avatar and username, each user has options
  # Error handling
 If a message can't be sent due to connectivity issues, users should receive a notification saying something went wrong "please check your connections and try again", a retry button to try resend a undelivered messae and a offline warning, messages saved until other user back online to receive it.
 
+---
 
 # <ins> Designing the Mockups <ins/>
 
@@ -375,6 +418,7 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="983" height="714" alt="image" src="https://github.com/user-attachments/assets/494e63ae-e7af-4db2-992a-6b0e4890b18b" />
 
+---
 
 # Daniel Drafts
 
@@ -392,6 +436,8 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/c0622307-1854-44d0-af0e-cda4774fb48a" />
 
+---
+
 # Sayf's Mock-ups
 - Settings Page
 <img width="838" height="799" alt="image" src="https://github.com/user-attachments/assets/05f09fe2-aa98-43fe-b74e-32a8611f48b9" />
@@ -399,11 +445,15 @@ If a message can't be sent due to connectivity issues, users should receive a no
 - Profile Page
 <img width="794" height="747" alt="image" src="https://github.com/user-attachments/assets/c44ad11e-e3f7-438d-b89c-6a5118dfa284" />
 
+---
+
 ## Logo Link
 - https://i.postimg.cc/GtXyJgkf/Unity-Logo.png
 - used in code for a direct link to implement the unity logo:
 <img width="555" height="121" alt="image" src="https://github.com/user-attachments/assets/eef70440-68b2-4aa1-946a-a8ced6381c41" />
-  
+
+---
+
 ## Potential Project Risks
 
 # Technical arcitecture #
@@ -429,6 +479,8 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 # Limited deployment knowledge #
 - Possible difficulty deploying servers, this could lead to deployment errors making the system unusable
+
+---
 
 ## Core requirements ##
 
@@ -458,6 +510,8 @@ If a message can't be sent due to connectivity issues, users should receive a no
 - Message backup/export
 - End-to-end encryption (E2EE) or at minimum message encryption in transit (TLS)
 - Secure user authentication (OAuth 2.0, JWT, or password-based authentication with hashing)
+
+---
 
 ## basic pseudo coide ##
 
@@ -494,6 +548,8 @@ function createGroupChat(creatorID, memberList):
     notifyMembers(memberList)
     return groupID
 
+---
+
 ## Basic UML-Style Flowcharts ##
 # App Logic Flowchart
 <img width="2142" height="1018" alt="image" src="https://github.com/user-attachments/assets/715f380e-361f-45ce-9289-089a44115f14" />
@@ -511,6 +567,8 @@ function createGroupChat(creatorID, memberList):
 
 <img width="567" height="820" alt="image" src="https://github.com/user-attachments/assets/53562708-8607-4b0c-82c1-3e8c3a49a003" />
 
+---
+
 # How states are detected #
 - Start state triggered when the app loads (AppDelegate / MainActivity)
 - Authentication state detected by checking if user token exists
@@ -518,12 +576,16 @@ function createGroupChat(creatorID, memberList):
 - Message events triggered by server socket/WebSocket/HTTP events
 - Error state triggered by network failure or invalid response
 
+---
+
 # How states change #
 - Navigation (user taps chat → CHAT_OPEN)
 - User interactions (send message → MESSAGE_SENT)
 - Server events (incoming message → MESSAGE_RECEIVED)
 - Authentication success/failure
 - Errors and exception handling
+
+---
 
 # State Logic #
 - state = "START"
@@ -548,6 +610,8 @@ function createGroupChat(creatorID, memberList):
 
 - if userLogsOut:
     state = "LOGOUT"
+
+---
 
 ## Refrences
 To develop the app we chose to use Flutter framework and Cloud Firestore (Firebase). The flutter framework is essential to build the mobile app’s interface and logic for both Android and iOS from a single codebase. And Firestore is essential to store user data, messages, and real-time updates.
