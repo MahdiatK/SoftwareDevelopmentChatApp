@@ -42,7 +42,17 @@ class MyDrawer extends StatelessWidget {
             child: ListTile(
               title: const Text(" S E T T I N G S"),
               leading: const Icon(Icons.settings),
-              onTap: () {},
+              onTap: () {
+                Navigator.pop(context);
+
+                // navigate to settings page
+                Navigator.push(
+                  context, 
+                  MaterialPageRoute(
+                     builder: (context) => SettingsPage(),
+                  ),
+                );
+              },
             ),
           ),],),
 
