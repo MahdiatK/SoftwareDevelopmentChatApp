@@ -3,13 +3,14 @@ import 'package:unity_main/components/my_drawer.dart';
 import 'package:unity_main/services/auth/auth_service.dart';
 import 'package:unity_main/services/chat/chat_service.dart';
 import '../components/user_tile.dart';
+import 'chat_page.dart';
 
 class HomePage extends StatelessWidget {
    HomePage({super.key});
 
   // chat and auth service
   final ChatService _chatService = ChatService();
-  final AuthService _authService = AuthService()
+  final AuthService _authService = AuthService();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +36,7 @@ class HomePage extends StatelessWidget {
   // build a user list except for current logged in user
   Widget _buildUserList() {
     return StreamBuilder(
-      stream: ChatService.getUsersStream(),
+      stream: _chatService.getUsersStream(),
       builder: (context, snapshot) {
         // error
         if (snapshot.hasError) {
@@ -49,7 +50,9 @@ class HomePage extends StatelessWidget {
 
         // return list view
         return ListView(
-          children: snapshot.data!.map<Widget>((userData) => _buildUserListItem).toList()
+          children: snapshot.data!
+          .map<Widget>((userData) => _buildUserListItem(userData, context))
+          .toList()
         );
       },
       );
@@ -65,7 +68,9 @@ class HomePage extends StatelessWidget {
         Navigator.push
         (context,
           MaterialPageRoute(
-            builder: (context) => ChatPage(),
+            builder: (context) => ChatPage(
+              receiverEmail: userData["email"],
+            ),
           )
         );
       },
