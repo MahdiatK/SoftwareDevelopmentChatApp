@@ -10,9 +10,24 @@ class MyDrawer extends StatelessWidget {
       child: Column(
         children: [
           //logo
-          Icon(Icons.message)
+          DrawerHeader(
+            child: Center(
+              child:Icon(
+                Icons.message, 
+                color: Theme.of(context).colorScheme.primary,
+                size: 40,
+            ),
+          ),
+       ),
 
           //home list tile
+          Padding(
+            padding: const EdgeInsets.only(left: 25.0),
+            child: ListTile(
+              title: Text(" H O M E"),
+              onTap: () {},
+            )
+          )
 
           //settings list tile
 
