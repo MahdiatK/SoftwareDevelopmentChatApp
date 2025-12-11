@@ -24,16 +24,35 @@ class MyDrawer extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 25.0),
             child: ListTile(
-              title: Text(" H O M E"),
+              title: const Text(" H O M E"),
+              leading: const Icon(Icons.home),
               onTap: () {},
-            )
-          )
+            ),
+          ),
 
           //settings list tile
+          Padding(
+            padding: const EdgeInsets.only(left: 25.0),
+            child: ListTile(
+              title: const Text(" S E T T I N G S"),
+              leading: const Icon(Icons.settings),
+              onTap: () {},
+            ),
+          ),
 
           //logout list tile
+          Padding(
+            padding: const EdgeInsets.only(left: 25.0),
+            child: ListTile(
+              title: const Text(" L O G O U T"),
+              leading: const Icon(Icons.logout),
+              onTap: () {},
+            ),
+          ),
         ],
       ),
     );
   }
 }
+
+    
