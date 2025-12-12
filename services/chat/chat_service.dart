@@ -65,6 +65,19 @@ Future<void> sendMessage(String receiverID, message) async {
       .collection("Messages")
       .add(newMessage.toMap());
 }
-// get messages
 
+// get messages
+Stream<QuerySnapshot> getMessagesStream(String userID, otherUserID) {
+  //construct a chatroom ID for these two users (sorted to ensure uniqueness))
+  List<String> ids = [userID, otherUserID];
+  ids.sort(); //sort the ids (ensures the chat id is same for two people)
+  String chatRoomID = ids.join("_"); 
+
+  return _firestore
+      .collection("ChatRooms")
+      .doc(chatRoomID)
+      .collection("Messages")
+      .orderBy("timestamp", descending: false)
+      .snapshots();
+ }
 }
