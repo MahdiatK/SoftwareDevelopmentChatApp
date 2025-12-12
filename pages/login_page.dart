@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:unity_main/auth/auth_service.dart';
+import 'package:unity_main/services/auth/auth_service.dart';
 import 'package:unity_main/components/textfield.dart';
 import 'package:unity_main/components/my_button.dart';
 
@@ -71,15 +71,16 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
+      backgroundColor: const Color(0xFF1a1a1a),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const SizedBox(height: 60),
             //Unity Logo
             Image.network(
               'https://i.postimg.cc/GtXyJgkf/Unity-Logo.png',
-              height: 150,
+              height: 200,
             ),
 
             const SizedBox(height: 50),
@@ -87,8 +88,8 @@ class _LoginPageState extends State<LoginPage> {
             //Welcome back message
             Text(
               "WELCOME BACK",
-              style: TextStyle(
-                color: Theme.of(context).colorScheme.inversePrimary,
+              style: const TextStyle(
+                color: Colors.white,
                 fontSize: 16,
               ),
             ),
@@ -125,19 +126,19 @@ class _LoginPageState extends State<LoginPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "Not a member?",
                   style: TextStyle(
-                    color: Theme.of(context).colorScheme.primary,
+                    color: Colors.white,
                   ),
                 ),
                 GestureDetector(
                   onTap: widget.onTap,
-                  child: Text(
+                  child: const Text(
                     " Register now",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.primary,
+                      color: Colors.white,
                     ),
                   ),
                 ),
@@ -148,4 +149,4 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   }
-} 
+}
