@@ -51,15 +51,16 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
+      backgroundColor: const Color(0xFF1a1a1a),
       body:Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const SizedBox(height: 60),
             //Unity Logo
             Image.network(
               'https://i.postimg.cc/GtXyJgkf/Unity-Logo.png',
-              height: 150,
+              height: 200,
             ),
 
             const SizedBox(height: 50),
@@ -67,8 +68,8 @@ class RegisterPage extends StatelessWidget {
             //Welcome back message
             Text(
               "Let's create an account for you",
-              style: TextStyle(
-                color: Theme.of(context).colorScheme.inversePrimary,
+              style: const TextStyle(
+                color: Colors.white,
                 fontSize: 16,
               ),
             ),
@@ -114,18 +115,18 @@ class RegisterPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   "Already have an account?",
                   style: 
-                  TextStyle(color: Theme.of(context).colorScheme.primary),
+                  TextStyle(color: Colors.white),
                 ),
                 GestureDetector(
                   onTap: onTap,
-                  child: Text(
+                  child: const Text(
                     "Login now", 
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.primary),
+                      color: Colors.white),
                   ),
                 ),
               ],   
