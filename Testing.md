@@ -8,7 +8,7 @@ The issue was resolved by changing the name of the login page file to .dart as n
 I have been coding side by side with Andriod Studio - A andriod phone emulator it looks like this and this what what i have done upto now:
 - <img width="2540" height="1398" alt="image" src="https://github.com/user-attachments/assets/767c0a7d-b08c-4efb-a107-e80d8f3e2004" />
 
-In development faced alot of comon errors in indentation adn parenthesis these are some of them:
+In development faced alot of comon errors in indentation and parenthesis these are some of them:
 - <img width="753" height="488" alt="image" src="https://github.com/user-attachments/assets/74ddc3a8-a159-429d-9547-272c4b4b1c05" />
 This issue was fixed to allow the app to run, the changes i made was to change the position of the parenthesis it had to be on the same line as the color scheme primary code,
 Also i made the code more neat and readable, fixing some of the indentation here is the fixed version:
