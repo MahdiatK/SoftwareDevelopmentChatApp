@@ -9,7 +9,7 @@ class ChatPage extends StatefulWidget {
   final String receiverEmail;
   final String receiverID;
 
-  ChatPage({
+  const ChatPage({
     super.key, 
     required this.receiverEmail,
     required this.receiverID,
@@ -46,6 +46,12 @@ class _ChatPageState extends State<ChatPage> {
           );
         } // Rebuild to reflect focus changes
       });
+
+      //Wait a little while for listview to be built, then scroll to bottom
+      Future.delayed(
+        const Duration(milliseconds: 500),
+        () => scrolldown(),
+      );
     }
 
     @override
@@ -75,6 +81,8 @@ class _ChatPageState extends State<ChatPage> {
       //clear the controller
       _messageController.clear();
     }
+
+    scrolldown();
   }
 
   @override
