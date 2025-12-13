@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:unity_main/components/textfield.dart';
-import 'package:unity_main/services/auth/auth_service.dart';
+import 'package:unity_main/services/auth new/auth_service.dart';
 import 'package:unity_main/services/chat/chat_service.dart';
 
 class ChatPage extends StatelessWidget {
