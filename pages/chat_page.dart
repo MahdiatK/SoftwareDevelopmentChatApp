@@ -37,15 +37,22 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(receiverEmail)),
-      body: Column(children: [
+      appBar: AppBar(
+        title: Text(receiverEmail),
+        backgroundColor: Colors.transparent,
+        foregroundColor: Colors.grey,
+        elevation: 0,
+        ),
+      body: Column(
+        children: [
         // display all the messages
         Expanded(child: _buildMessagesList(),
         ),
 
         //display the users input
         _buildUserInput(),
-      ]),
+        ],
+      ),
     );
   }
 
