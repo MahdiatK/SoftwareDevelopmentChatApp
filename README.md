@@ -8,7 +8,7 @@ A mobile chat application built using Flutter and Firebase (Cloud Firestore).
 </p>
 
 <p align="center">
-  <img width="700" height="150" alt="Daniel-Sayf-and-Mahdiat-13-12-2025 (2)" src="https://github.com/user-attachments/assets/9f72b764-22be-4db1-ab74-a14383d0f62e" />
+  <img width="250" height="150" alt="Daniel-Sayf-and-Mahdiat-13-12-2025 (2)" src="https://github.com/user-attachments/assets/9f72b764-22be-4db1-ab74-a14383d0f62e" />
 </p>
 
 ---
