@@ -20,5 +20,6 @@ class BrightnessProvider with ChangeNotifier {
     } else {
       _themeData = lightMode;
     }
+    notifyListeners();
   }
 }
